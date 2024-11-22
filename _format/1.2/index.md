@@ -2267,3 +2267,8 @@ request as equivalent to one in which the square brackets were percent-encoded.
 [member names]: #document-member-names
 [pagination]: #fetching-pagination
 [query parameter family]: #query-parameters-families
+[fetching filtering]: #fetching-filtering
+[fetching pagination]: #fetching-pagination
+[fetching resources]: #fetching-resources
+[fetching sorting]: #fetching-sorting
+[fetching sparse fieldsets]: #fetching-sparse-fieldsets
