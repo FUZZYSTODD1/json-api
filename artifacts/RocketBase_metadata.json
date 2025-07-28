@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "David Rugendyke",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Set the main Rocket Storage address"
+				}
+			},
+			"title": "Base settings / modifiers for each contract in Rocket Pool",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tenderly/bitcoincobra/contracts/contract/RocketBase.sol": "RocketBase"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tenderly/bitcoincobra/contracts/contract/RocketBase.sol": {
+			"keccak256": "0x49029adff501daf8489e0e6bd055d604cc6afe78069c56d01559716d827ecfce",
+			"license": "GPL-3.0-only",
+			"urls": [
+				"bzz-raw://f788a975b874f3687bab11d83f9f5e0f723415295a7fe47f4277d6b377f8370b",
+				"dweb:/ipfs/QmZpbidJABnJSNoXFspf38piWhnKfkwao5CBahHFvMiAaE"
+			]
+		},
+		"tenderly/bitcoincobra/contracts/interface/RocketStorageInterface.sol": {
+			"keccak256": "0xa2c0e2fbcd05b5bc2c14da5ba6e5f58024fc85c77a2740ab60ebc4174248bd5a",
+			"license": "GPL-3.0-only",
+			"urls": [
+				"bzz-raw://60acfc3c18a3b082963b71391f50147216ce3234c9164f7e029da4d16650454d",
+				"dweb:/ipfs/QmRRyQovXXxEfP6e5Je9HyaZyk7iQg9XTR3pfViuuz6ZsL"
+			]
+		}
+	},
+	"version": 1
+}
