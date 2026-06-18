@@ -1,0 +1,31 @@
+{
+  "patches": {
+    "pkg:npm/underscore@1.6.0": {
+      "uuid": "04b3c37d-bc88-470e-a771-7e9b2da791f4",
+      "exportedAt": "Wed, 18 Feb 2026 22:45:40 GMT",
+      "files": {
+        "package/underscore-min.js": {
+          "beforeHash": "08dcfa36c3188059c4b7ec16c1b17facbdcb8333e37b5e2efead67c10294452c",
+          "afterHash": "d2ab30ac373ff40dad12367cbeb5d8269988ee856f9002fef4343e7b469a0f94"
+        },
+        "package/underscore.js": {
+          "beforeHash": "41331ab880a4e36b77a5c33785de547338f60942de0b383859d30840e3923167",
+          "afterHash": "53b7c971f5fc6e46b6776b294455561259e384e708b29b3dcfd6a6b735a6e051"
+        }
+      },
+      "vulnerabilities": {
+        "GHSA-cf4h-3jhx-xvhq": {
+          "cves": [
+            "CVE-2021-23358"
+          ],
+          "summary": "Arbitrary Code Execution in underscore",
+          "severity": "CRITICAL",
+          "description": "The package `underscore` from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Execution via the template function, particularly when a variable property is passed as an argument as it is not sanitized."
+        }
+      },
+      "description": "",
+      "license": "MIT",
+      "tier": "free"
+    }
+  }
+}
